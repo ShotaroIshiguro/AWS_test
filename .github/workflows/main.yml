@@ -8,12 +8,12 @@ on:
 
 # 環境変数
 env:
-  AWS_REGION: ap-northeast-1                   # AWSリージョン
-  ECR_REPOSITORY: my-app-repo                  # ECRリポジトリ名
-  ECS_CLUSTER: my-app-cluster                  # ECSクラスター名
-  ECS_SERVICE: my-app-service                  # ECSサービス名
+  AWS_REGION: ap-southeast-2                  # AWSリージョン
+  ECR_REPOSITORY: ecs-repo                  # ECRリポジトリ名
+  ECS_CLUSTER: 0824-ec2-cluster-test                 # ECSクラスター名
+  ECS_SERVICE: 0824-ec2-service                 # ECSサービス名
   ECS_TASK_DEFINITION: task-definition.json    # タスク定義ファイル名
-  CONTAINER_NAME: my-app-container             # タスク定義内のコンテナ名
+  CONTAINER_NAME: my-python-app-container            # タスク定義内のコンテナ名
 
 jobs:
   deploy:
