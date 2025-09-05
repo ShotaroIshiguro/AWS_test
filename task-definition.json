@@ -1,6 +1,6 @@
 {
   "family": "my-python-app-task",
-  "taskRoleArn": "arn:aws:iam::220749297321:role/ECSTaskSSMRole",
+  "taskRoleArn": "arn:aws:iam::220749297321:role/ECSTaskSSMRole-test",
   "networkMode": "bridge",
   "containerDefinitions": [
     {
